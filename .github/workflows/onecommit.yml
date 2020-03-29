@@ -1,8 +1,8 @@
-name: oneCommit
+name: OneCommit
 on: [pull_request]
 jobs:
   oneCommit:
     runs-on: ubuntu-latest
-    name: A job to restrict commit message per pull request
+    name: restict commit messages
     steps:
       - uses: Gaurang033/actionDemo@v0.1
